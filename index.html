@@ -76,23 +76,8 @@ Twitter : Plesio_
 
 <h2>bpg on thispage</h2>
 <h3>If it works good, you see anything under space.</h3>
+<h3>表示は無事できたが、サイズの調整が効かないのは…</h3>
 <img src="./images/pat1.bpg"><br>
-
-<canvas id="pat1" width="500" height="500"></canvas>
-<script>
-(function ()
-{
-    var img, canvas, ctx;
-    canvas = document.getElementById("pat1");
-    ctx = canvas.getContext("2d");
-
-    img = new BPGDecoder(ctx);
-    img.onload = function() {
-        /* draw the image to the canvas */
-        ctx.putImageData(this.imageData, 0, 0);
-    };
-    img.load("./images/pat1.bpg");
-})();
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->

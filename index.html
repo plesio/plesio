@@ -78,6 +78,23 @@ Twitter : Plesio_
 <h3>If it works good, you see anything under space.</h3>
 <img src="./images/pat1.bpg"><br>
 
+<canvas id="pat1" width="100%" height="100%"></canvas>
+<script>
+(function ()
+{
+    var img, canvas, ctx;
+
+    canvas = document.getElementById("pat1");
+    ctx = canvas.getContext("2d");
+
+    img = new BPGDecoder(ctx);
+    img.onload = function() {
+        /* draw the image to the canvas */
+        ctx.putImageData(this.imageData, 0, 0);
+    };
+    img.load("pat1.bpg");
+})();
+
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 	

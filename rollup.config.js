@@ -100,7 +100,7 @@ export default {
     production &&
       terser({
         output: {
-          ecma: 5, // -- 念の為 es5 準拠のソースに落としておく。
+          ecma: "es2015",
         },
       }),
   ],

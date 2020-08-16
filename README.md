@@ -6,6 +6,8 @@ _Looking for a shareable component template? Go here --> [sveltejs/component-tem
   - 自分のgh-pagesが全く更新されていないどころかいろいろ不都合ある情報の羅列になっているのでメンテ
   - とりあえず、一番盛り上がってたsvelteを使ってみようと動く。
   - carbon-components-svelte が TS 対応しているのでUI-Frameworksはとりあえずそれで。
+      - とおもったら material-ui 使えそうなのでそっちにする。
+  - あとはもともとあったページから、昔の情報を削除して完成。？？
 ---
 
 # svelte app

@@ -12,16 +12,21 @@
   <div class="aboutme card">
     <Card style="background-color: black; text-align: right">
       <Content style="color: white;">
-        <p>On job</p>
-        <p>Programmer(Java/Kotlin/TypeScript etc..)</p>
+        <caption>Job</caption>
+        <p>Programmer</p>
+        <p style="font-size:75%">(Java/Kotlin/TypeScript etc..)</p>
         <hr />
-        <p>On Music</p>
+        <caption>Musician</caption>
         <p>Japanese Rock Composer</p>
-        <p>Drums Arranger / Drums DTM Programmer</p>
-        <p>Musician, plays Guitar/Bass/Vocal/Drums...</p>
-        <p>Member of SurfRock band "Sakura-Yukke Alternative"</p>
+        <p>plays Guitar/Bass/Vocal/Drums...</p>
+        <p>Drums Arranger</p>
+        <p>Drums Programmer (on DTM)</p>
+        <hr />
+        <caption>Band</caption>
+        <p>Sakura-Yukke Alternative(Guitar)</p>
         <p>e.x.) Natsumeg(Drums).</p>
-        <p>e.x.) Sakura-Yukke(Drums DTM Programmer)</p>
+        <p>e.x.) Sakura-Yukke(Drums)</p>
+        <hr />
         <p>... and more ...</p>
       </Content>
     </Card>

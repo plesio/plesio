@@ -1,0 +1,38 @@
+//
+// Demo App Styles
+//
+
+// We need the theming variables for the following styles.
+@import "smui-theme";
+// This adds classes like "mdc-theme--primary-bg".
+@import "@material/theme/mdc-theme";
+@import "@material/elevation/mixins";
+
+// Import the typography styles.
+@import "../theme/typography.scss";
+
+html {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  color: #bfc2c7;
+  background-color: #1d3040;
+}
+
+body,
+App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  padding: 0.5em;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+@media (min-width: 640px) {
+  main {
+    max-width: none;
+  }
+}

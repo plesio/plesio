@@ -8,6 +8,9 @@ _Looking for a shareable component template? Go here --> [sveltejs/component-tem
   - carbon-components-svelte が TS 対応しているのでUI-Frameworksはとりあえずそれで。
       - とおもったら material-ui 使えそうなのでそっちにする。
   - あとはもともとあったページから、昔の情報を削除して完成。？？
+- 2020-08-17
+  - 横幅が広すぎると caption タグの文字が超左寄せしちゃったりするんで、mid-width とか考える.
+  
 ---
 
 # svelte app

@@ -7,9 +7,6 @@
     "noImplicitAny": false,
     "target": "ESNext",
     "allowJs": false,
-    "removeComments": true,
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "removeComments": true
   }
 }

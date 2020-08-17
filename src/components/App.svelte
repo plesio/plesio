@@ -17,8 +17,10 @@
 
 <main>
   <TitleBlock {title} />
-  <AboutMe />
-  <Contact />
-  <SongSample />
+  <div class="mainContent">
+    <AboutMe />
+    <Contact />
+    <SongSample />
+  </div>
   <CopyRight />
 </main>

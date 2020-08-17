@@ -28,6 +28,13 @@ main {
   max-width: 75vw;
   margin: 0 auto;
 }
+
+div.mainContent {
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 @media (min-width: 640px) {
   main {
     max-width: none;

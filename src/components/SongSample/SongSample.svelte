@@ -8,7 +8,7 @@
 </style>
 
 <div class="songsample">
-  <h4 class="songsample">Song Sample</h4>
+  <h4 class="songsample">Song Works</h4>
   <div class="songsample card">
     <Card style="background-color: black; text-align: right">
       <!-- svelte-ignore a11y-missing-attribute -->

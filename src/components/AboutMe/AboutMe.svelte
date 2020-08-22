@@ -18,18 +18,41 @@
         <hr />
         <caption>Musician</caption>
         <p>Japanese Rock Composer</p>
-        <p>plays Guitar/Bass/Vocal/Drums...</p>
-        <p>Drums Arranger</p>
+        <p>plays Guitar/Bass/Drums</p>
         <p>Drums Programmer (on DTM)</p>
         <hr />
-        <caption>Band</caption>
-        <p>Sakura-Yukke Alternative(Guitar)</p>
-        <p>e.x.) Natsumeg(Drums).</p>
-        <p>e.x.) Sakura-Yukke(Drums)</p>
+        <caption>Active</caption>
+        <p>
+          <a
+            href="https://www.youtube.com/watch?v=FiM1wK3G6a4&t=7020s"
+            style="text-decoration: none;">
+            Sakura-Yukke Alternative
+          </a>
+          (Guitar)
+        </p>
+        <p>
+          <a
+            href="https://plesio.bandcamp.com/releases"
+            style="text-decoration: none;">
+            Mastery Puppetz
+          </a>
+          (Everything but Vocal)
+        </p>
+        <hr />
+        <caption>e.x.)</caption>
+        <p>Sakura-Yukke Band (Guitar)</p>
+        <p>Sakura-Yukke (DTM Support)</p>
+        <p>
+          <a
+            href="https://soundcloud.com/natsumegu"
+            style="text-decoration: none;">
+            Natsumeg
+          </a>
+          (Drums)
+        </p>
         <hr />
         <p>... and more ...</p>
       </Content>
     </Card>
-
   </div>
 </div>

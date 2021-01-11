@@ -1,15 +1,14 @@
 <script lang="ts">
   // --
-  import "./CopyRight.scss";
+  import './CopyRight.scss';
   // --
-  const currentYear = new Date().getFullYear();
+    const currentYear = new Date().getFullYear();
 </script>
 
-<style>
-
-</style>
-
 <div class="copyright">
-  <hr class="copyright" />
-  <p>© 2011 - {currentYear} @Plesio_ | This page created with svelte.</p>
+    <hr class="copyright"/>
+    <p>© 2011 - {currentYear} @Plesio_ | This page created with svelte.</p>
 </div>
+
+<style>
+</style>

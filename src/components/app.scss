@@ -3,13 +3,13 @@
 //
 
 // We need the theming variables for the following styles.
-@import "smui-theme";
+@import 'smui-theme';
 // This adds classes like "mdc-theme--primary-bg".
-@import "@material/theme/mdc-theme";
-@import "@material/elevation/mixins";
+@import '@material/theme/mdc-theme';
+@import '@material/elevation/mixins';
 
 // Import the typography styles.
-@import "../theme/typography.scss";
+@import '../theme/typography.scss';
 
 html {
   color: #bfc2c7;

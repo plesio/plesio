@@ -1,15 +1,18 @@
+<style>
+</style>
+
 <script lang="ts">
   import './SongSample.scss';
-  import Card, {Content} from '@smui/card';
+  import Card, { Content } from '@smui/card';
 </script>
 
 <div class="songsample">
-    <h4 class="songsample">Song Works</h4>
-    <div class="songsample card">
-        <Card style="background-color: black; text-align: right">
-            <!-- svelte-ignore a11y-missing-attribute -->
-            <Content style="color: white;">
-                <!-- <iframe
+  <h4 class="songsample">Song Works</h4>
+  <div class="songsample card">
+    <Card style="background-color: black; text-align: right">
+      <!-- svelte-ignore a11y-missing-attribute -->
+      <Content style="color: white;">
+        <!-- <iframe
                   width="100%"
                   height="166"
                   scrolling="no"
@@ -38,14 +41,11 @@
                     Nameless Milk feat. AIきりたん
                   </a>
                 </div> -->
-                <p>
-                    <a href="https://soundcloud.com/plesiosaurus/nmm" style="text-decoration: none;"> SondCloud </a>
-                    is here
-                </p>
-            </Content>
-        </Card>
-    </div>
+        <p>
+          <a href="https://soundcloud.com/plesiosaurus/nmm" style="text-decoration: none;"> SondCloud </a>
+          is here
+        </p>
+      </Content>
+    </Card>
+  </div>
 </div>
-
-<style>
-</style>

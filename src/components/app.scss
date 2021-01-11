@@ -3,13 +3,16 @@
 //
 
 // We need the theming variables for the following styles.
-@import 'smui-theme';
+@import "smui-theme";
 // This adds classes like "mdc-theme--primary-bg".
-@import '@material/theme/mdc-theme';
-@import '@material/elevation/mixins';
+@import "@material/theme/mdc-theme";
+@import "@material/elevation/mixins";
 
 // Import the typography styles.
-@import '../theme/typography.scss';
+@import "../theme/typography";
+
+// Import My MediaQUERY
+@import "../theme/mediaquery";
 
 html {
   color: #bfc2c7;
@@ -25,8 +28,12 @@ App {
 
 main {
   padding: 0.5em;
-  max-width: 75vw;
+  width: 85vw;
   margin: 0 auto;
+
+  @include for-tablet-portrait-up {
+    width: 75vw;
+  }
 }
 
 div.mainContent {

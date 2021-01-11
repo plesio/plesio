@@ -3,7 +3,6 @@
 //
 @import "@material/typography/mdc-typography";
 
-
 //
 // Some defaults that may be helpful to you.
 // If you just want to use these, and not the classes, you can instead import
@@ -11,47 +10,48 @@
 //
 html {
   color: #bfc2c7;
-  @include mdc-typography('body1');
+  @include mdc-typography("body1");
 }
 
 h1 {
   color: #bfc2c7;
-  @include mdc-typography('headline1');
+  @include mdc-typography("headline1");
 }
 
 h2 {
   color: #bfc2c7;
-  @include mdc-typography('headline2');
+  @include mdc-typography("headline2");
 }
 
 h3 {
   color: #bfc2c7;
-  @include mdc-typography('headline3');
+  @include mdc-typography("headline3");
 }
 
 h4 {
   color: #bfc2c7;
-  @include mdc-typography('headline4');
+  @include mdc-typography("headline4");
 }
 
 h5 {
   color: #bfc2c7;
-  @include mdc-typography('headline5');
+  @include mdc-typography("headline5");
 }
 
 h6 {
   color: #bfc2c7;
-  @include mdc-typography('headline6');
+  @include mdc-typography("headline6");
 }
 
 caption {
   color: #bfc2c7;
-  @include mdc-typography('caption');
+  @include mdc-typography("caption");
 }
 
-code, pre {
+code,
+pre {
   color: #bfc2c7;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 p {
@@ -59,13 +59,14 @@ p {
 }
 
 small {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 big {
   font-size: 1.1em;
 }
 
-b, strong {
+b,
+strong {
   font-weight: bold;
 }

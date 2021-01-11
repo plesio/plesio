@@ -3,7 +3,7 @@
 
 <script lang="ts">
   // --
-  import './CopyRight.scss';
+  import "./CopyRight.scss";
   // --
   const currentYear = new Date().getFullYear();
 </script>

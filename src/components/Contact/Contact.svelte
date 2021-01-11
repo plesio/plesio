@@ -2,8 +2,8 @@
 </style>
 
 <script lang="ts">
-  import './Contact.scss';
-  import Card, { Content } from '@smui/card';
+  import "./Contact.scss";
+  import Card, { Content } from "@smui/card";
 </script>
 
 <div class="contact">

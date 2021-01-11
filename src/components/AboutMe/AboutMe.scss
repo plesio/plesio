@@ -1,3 +1,6 @@
+// Import My MediaQUERY
+@import "../../theme/mediaquery";
+
 h4.aboutme {
   text-transform: uppercase;
   margin-bottom: 0;
@@ -8,5 +11,9 @@ div.aboutme {
 }
 
 div.aboutme.card {
-  margin-left: 5em;
+  margin-left: 2em;
+
+  @include for-tablet-portrait-up {
+    margin-left: 5em;
+  }
 }

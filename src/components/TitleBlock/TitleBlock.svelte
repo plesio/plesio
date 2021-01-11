@@ -3,7 +3,7 @@
 
 <script lang="ts">
   // -- import
-  import './TitleBlock.scss';
+  import "./TitleBlock.scss";
   // -- props
   export let title: string;
 </script>

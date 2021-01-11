@@ -3,14 +3,14 @@ _Looking for a shareable component template? Go here --> [sveltejs/component-tem
 # このプロジェクトについて
 
 - 2020-08-15
-  - 自分のgh-pagesが全く更新されていないどころかいろいろ不都合ある情報の羅列になっているのでメンテ
-  - とりあえず、一番盛り上がってたsvelteを使ってみようと動く。
-  - carbon-components-svelte が TS 対応しているのでUI-Frameworksはとりあえずそれで。
-      - とおもったら material-ui 使えそうなのでそっちにする。
+  - 自分の gh-pages が全く更新されていないどころかいろいろ不都合ある情報の羅列になっているのでメンテ
+  - とりあえず、一番盛り上がってた svelte を使ってみようと動く。
+  - carbon-components-svelte が TS 対応しているので UI-Frameworks はとりあえずそれで。
+    - とおもったら material-ui 使えそうなのでそっちにする。
   - あとはもともとあったページから、昔の情報を削除して完成。？？
 - 2020-08-17
   - 横幅が広すぎると caption タグの文字が超左寄せしちゃったりするんで、mid-width とか考える.
-  
+
 ---
 
 # svelte app
